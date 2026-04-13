@@ -189,6 +189,6 @@ export default function FriendDetails() {
       </div>
     </div>
   );
-}
+}s
 // Friends data added
 // Friend details page
