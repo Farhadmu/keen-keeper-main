@@ -62,3 +62,4 @@ export default function StatsPage() {
   );
 }
 // Stats page
+//created friends card UI
