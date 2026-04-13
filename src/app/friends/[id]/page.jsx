@@ -190,3 +190,4 @@ export default function FriendDetails() {
     </div>
   );
 }
+// Friends data added
