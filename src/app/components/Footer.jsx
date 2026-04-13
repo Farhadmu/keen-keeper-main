@@ -38,3 +38,4 @@ const Footer = () => {
 };
 
 export default Footer;
+// Footer section added
