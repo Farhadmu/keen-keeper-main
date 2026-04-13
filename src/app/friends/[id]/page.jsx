@@ -191,3 +191,4 @@ export default function FriendDetails() {
   );
 }
 // Friends data added
+// Friend details page
