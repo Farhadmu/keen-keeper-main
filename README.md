@@ -12,9 +12,7 @@ KeenKeeper is a relationship management web app that helps you stay connected wi
 ---
 
 ## Live Demo
-
-[🔗 [keenkeeper.vercel.app](https://keenkeeper.vercel.app) 
-](https://venerable-paletas-ee7f00.netlify.app/)
+(https://venerable-paletas-ee7f00.netlify.app/)
 ---
 
 ## Key Features
