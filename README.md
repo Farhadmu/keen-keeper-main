@@ -1,36 +1,36 @@
-# 🌿 KeenKeeper
+# KeenKeeper
 
 > **Your personal shelf of meaningful connections.**  
 > Browse, tend, and nurture the relationships that matter most.
 
 ---
 
-## 📖 Description
+## Description
 
 KeenKeeper is a relationship management web app that helps you stay connected with the people who matter most in your life. Track your last interactions, set contact goals, and never let an important friendship fade away — all in one clean, intuitive dashboard.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
-🔗 [keenkeeper.vercel.app](https://keenkeeper.vercel.app) *(update this after deployment)*
-
+[🔗 [keenkeeper.vercel.app](https://keenkeeper.vercel.app) 
+](https://venerable-paletas-ee7f00.netlify.app/)
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🎯 Smart Friend Tracking
+### Smart Friend Tracking
 Monitor every friendship with status indicators — **On-Track**, **Almost Due**, and **Overdue** — so you always know who needs your attention before it's too late.
 
-### ⚡ Quick Check-In System
+### Quick Check-In System
 Log a **Call**, **Text**, or **Video** interaction with a single click from any friend's detail page. Every interaction is instantly recorded to your personal Timeline with a timestamp and toast notification.
 
-### 📊 Friendship Analytics
+### Friendship Analytics
 Visualize your interaction habits through a beautiful **Recharts Pie Chart** on the Stats page — broken down by Call, Text, and Video — so you can reflect on how you're staying connected.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -44,10 +44,10 @@ Visualize your interaction habits through a beautiful **Recharts Pie Chart** on 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
-kin-keeper-main/
+keen-keeper-main/
 ├── public/
 │   └── friends.json        # Friend data source
 ├── src/
@@ -69,7 +69,7 @@ kin-keeper-main/
 
 ---
 
-## 📦 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js v18+
@@ -79,10 +79,10 @@ kin-keeper-main/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/kin-keeper-main.git
+(https://github.com/Farhadmu/keen-keeper-main.git)
 
 # Navigate to project folder
-cd kin-keeper-main
+cd keen-keeper-main
 
 # Install dependencies
 npm install
@@ -91,11 +91,11 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 📱 Pages Overview
+##  Pages Overview
 
 | Page | Route | Description |
 |---|---|---|
@@ -107,7 +107,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🎨 Design Highlights
+## Design Highlights
 
 - **Responsive** — Works on mobile, tablet, and desktop
 - **Loading animations** — Spinner and skeleton cards while fetching data
@@ -117,11 +117,11 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 👤 Author
+##  Author
 
-**Your Name**  
-📧 your.email@example.com  
-🐙 [github.com/your-username](https://github.com/your-username)
+**Farhadul Islam**  
+ mi0223937@gmail.com  
+ https://github.com/Farhadmu
 
 ---
 
