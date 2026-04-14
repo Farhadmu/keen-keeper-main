@@ -36,22 +36,21 @@ export default function Home() {
     <div className="max-w-5xl mx-auto px-6 py-10">
 
       {/* Banner */}
-      <div className="text-center mb-10">
-        <h1 className="text-4xl font-bold text-gray-900 mb-3">
-          Friends to keep close in your life
-        </h1>
-        <p className="text-gray-500 mb-6">
-          Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
-        </p>
-        <button
-          onClick={() => alert('Add Friend feature coming soon!')}
-          className="bg-[#1a3d2e] text-white px-5 py-2.5 rounded-lg flex items-center gap-2 mx-auto hover:bg-[#152f23] transition-colors"
-        >
-          <Plus size={18} />
-          Add a Friend
-        </button>
-      </div>
-
+<div className="text-center mb-10 px-4">
+  <h1 className="text-2xl sm:text-4xl font-bold text-gray-900 mb-3">
+    Friends to keep close in your life
+  </h1>
+  <p className="text-gray-500 mb-6 text-sm sm:text-base">
+    Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
+  </p>
+  <button
+    onClick={() => alert('Add Friend feature coming soon!')}
+    className="bg-[#1a3d2e] text-white px-5 py-2.5 rounded-lg flex items-center gap-2 mx-auto hover:bg-[#152f23] transition-colors text-sm sm:text-base"
+  >
+    <Plus size={18} />
+    Add a Friend
+  </button>
+</div>
       {/* Stats Cards */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
         {[

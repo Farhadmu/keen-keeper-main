@@ -18,24 +18,24 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white border-b border-gray-200 px-6 py-3 flex items-center justify-between sticky top-0 z-50">
-      <Link href="/" className="text-xl font-bold text-gray-900">
+    <nav className="bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between sticky top-0 z-50">
+      <Link href="/" className="text-lg font-bold text-gray-900 flex-shrink-0">
         KeenKeeper
       </Link>
 
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-1">
         {links.map(({ href, label, icon }) => (
           <Link
             key={href}
             href={href}
-            className={`flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+            className={`flex items-center gap-1 px-2 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium transition-all ${
               isActive(href)
                 ? 'bg-[#1a3d2e] text-white'
                 : 'text-gray-600 hover:bg-gray-100'
             }`}
           >
             {icon}
-            {label}
+            <span className="hidden sm:inline">{label}</span>
           </Link>
         ))}
       </div>
@@ -44,5 +44,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// Navbar component
